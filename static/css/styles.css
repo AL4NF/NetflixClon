@@ -143,14 +143,6 @@ header{
 .icon-info::before{
   background: url("../../images/icons/info.svg");
 }
-footer{
-  /* border: 1px solid red; */
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right:0;
-}
-
 .list-content{
   /* border: 1px solid red; */
   /* display: flex; */
@@ -167,4 +159,42 @@ footer{
 .list{
   /* border:1px solid green; */
   padding: 0 1em;
+}
+main{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+footer{
+  /* border: 1px solid red; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right:0;
+  background: black;
+  padding: 1em 0 0;
+}
+
+.tab-list{
+  border: 1px solid green;
+  margin:0;
+  padding:0;
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  color:#6e6e6e;
+}
+.tab-list a{
+  color:#6e6e6e;
+  display: block;
+}
+.tab-item{
+  border:1px solid red;
+  text-align: center;
+  /* margin:auto; */
+}
+.tab-item img{
+  display: block;
+  margin: auto;
 }
